@@ -122,7 +122,11 @@ a:focus {
 }
 .contacts {
   color: var(--gray-color);
-  padding-left: 50px;
+  padding-right: 50px;
+}
+.icon:hover
+{
+ color: var(--blue-color);
 }
 .title {
   text-align: center;
@@ -146,6 +150,7 @@ a:focus {
 .elements-position {
   padding: 15px 0px 15px 0px;
 }
+
 .our-strengths-text {
   font-size: 14px;
   line-height: 1.46;
@@ -245,4 +250,7 @@ a:focus {
 .gray-link {
   font-style: normal;
   color: var(--light-gray-text-color);
+}
+.social-links {
+  display: flex;
 }
