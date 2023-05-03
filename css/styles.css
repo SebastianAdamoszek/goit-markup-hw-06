@@ -133,7 +133,9 @@ a:focus {
 
 .contacts-icon {
   stroke: currentColor;
---icon-color: currentColor;
+--icon-color: currentColor; 
+  margin-right: 10px;
+  
 }
 
 .title {
