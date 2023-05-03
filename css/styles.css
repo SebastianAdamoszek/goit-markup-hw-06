@@ -120,14 +120,22 @@ a:focus {
 .contacts-position {
   padding-left: 250px;
 }
-.contacts {
-  color: var(--gray-color);
+.contact-space{
   padding-right: 50px;
 }
-.icon:hover
-{
- color: var(--blue-color);
+.contacts {
+  color: var(--gray-color);
+      
 }
+.contacts:hover{
+  color: var(--blue-color);
+}
+
+.contacts-icon {
+  stroke: currentColor;
+--icon-color: currentColor;
+}
+
 .title {
   text-align: center;
   padding: 200px 452px 200px 452px;
