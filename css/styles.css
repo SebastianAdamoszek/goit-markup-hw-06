@@ -66,6 +66,7 @@ a {
 a:link {
   text-decoration: none;
 }
+
 a:hover,
 a:focus {
   color: var(--blue-color);
@@ -120,22 +121,19 @@ a:focus {
 .contacts-position {
   padding-left: 250px;
 }
-.contact-space{
+.contact-space {
   padding-right: 50px;
 }
 .contacts {
   color: var(--gray-color);
-      
 }
-.contacts:hover{
+.contacts:hover {
   color: var(--blue-color);
 }
 
 .contacts-icon {
   stroke: currentColor;
---icon-color: currentColor; 
   margin-right: 10px;
-  
 }
 
 .title {
@@ -262,5 +260,16 @@ a:focus {
   color: var(--light-gray-text-color);
 }
 .social-links {
+  width: 206px;
   display: flex;
+  justify-content: center;
+  margin: 0px auto;
+}
+
+.social-links-footer {
+  float: left;
+}
+.proba {
+  display: flex;
+  justify-content: center;
 }
