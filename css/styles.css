@@ -120,9 +120,10 @@ a:focus {
 }
 .contacts-position {
   padding-left: 250px;
+ 
 }
 .contact-space {
-  padding-right: 50px;
+  padding-right: 50px; 
 }
 .contacts {
   color: var(--gray-color);
@@ -131,10 +132,7 @@ a:focus {
   color: var(--blue-color);
 }
 
-.contacts-icon {
-  stroke: currentColor;
-  margin-right: 10px;
-}
+
 
 .title {
   text-align: center;
@@ -174,6 +172,7 @@ a:focus {
   display: flex;
   justify-content: space-between;
   padding-bottom: 94px;
+  gap: 30px;
 }
 .group-buttons {
   display: flex;
@@ -260,15 +259,67 @@ a:focus {
   display: flex;
   justify-content: center;
 }
-.social-links svg {
-  width: 44px;
-  height: 44px;
-}
+
 .customers {
   display: flex;
   justify-content:space-between;
 }
-.customers svg {
-  width: 106px;
-  height: 60px;
+
+
+.icon {
+  display: inline-block;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+.icon-Logo5 {
+  width: 1.7666015625em;
+}
+
+.icon-Logo4 {
+  width: 1.7666015625em;
+}
+
+.icon-Logo3 {
+  width: 1.7666015625em;
+}
+
+.icon-Logo2 {
+  width: 1.7666015625em;
+}
+
+.icon-Logo1 {
+  width: 1.7373046875em;
+}
+
+.icon-Logo {
+  width: 1.7373046875em;
+}
+
+.icon-envelope {
+  width: 14px;
+  height: 18px;
+  margin-right: 10px;
+  padding-top: 6px;
+}
+
+.icon-smartphone {
+  width: 12px;
+  height: 16px;
+  margin-right: 10px;
+}
+.group-studio svg {
+  width: 70px;
+  height: 70px;
+  
+}
+.group-studio-icon {
+
+
+    margin-bottom: 30px;
+    background-color: var(--light-gray-color);
+    border-radius:4px;
+    text-align: center;
+    padding: 25px 0px 25px 0px;
 }
