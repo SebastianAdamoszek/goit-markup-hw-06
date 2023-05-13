@@ -31,6 +31,11 @@ footer {
   background: var(--dark-color);
   padding: 50px 0px 25px 0px;
 }
+.footer-wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+
 h1 {
   font-weight: 900;
   font-size: 44px;
@@ -120,10 +125,9 @@ a:focus {
 }
 .contacts-position {
   padding-left: 250px;
- 
 }
 .contact-space {
-  padding-right: 50px; 
+  padding-right: 50px;
 }
 .contacts {
   color: var(--gray-color);
@@ -131,8 +135,6 @@ a:focus {
 .contacts:hover {
   color: var(--blue-color);
 }
-
-
 
 .title {
   text-align: center;
@@ -255,22 +257,18 @@ a:focus {
   font-style: normal;
   color: var(--light-gray-text-color);
 }
-.social-links {
-  display: flex;
-  justify-content: center;
-}
 
 .customers {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
 }
-
 
 .icon {
   display: inline-block;
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
+ 
 }
 
 .icon-Logo5 {
@@ -309,17 +307,36 @@ a:focus {
   height: 16px;
   margin-right: 10px;
 }
-.group-studio svg {
-  width: 70px;
-  height: 70px;
-  
-}
+
 .group-studio-icon {
+  margin-bottom: 30px;
+  background-color: var(--light-gray-color);
+  border-radius: 4px;
+  text-align: center;
+  padding: 25px 0px 25px 0px;
+}
 
+.social-icons-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px 0px 50px;
+ 
+}
+.social-icons-box svg {
+  width: 20px;
+  height: 20px;
+}
+.footer-social-icons-box {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  width: 300px;
+  color: var(--white-color);
 
-    margin-bottom: 30px;
-    background-color: var(--light-gray-color);
-    border-radius:4px;
-    text-align: center;
-    padding: 25px 0px 25px 0px;
+}
+.footer-social-icons-box span {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  padding-left: 50px;
 }
