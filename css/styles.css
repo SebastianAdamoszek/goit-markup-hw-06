@@ -10,6 +10,7 @@
   --bg-team-white-color: #f4f5fa;
   --light-gray-text-color: rgba(255, 255, 255, 0.6);
   --cubic-bezier: cubic-bezier(0.4, 0, 0.2, 1);
+  --banner-background: rgba(47, 48, 58, 0.4);
 }
 body {
   font-family: "roboto", sans-serif;
@@ -35,17 +36,9 @@ footer {
 .footer-wrapper {
   display: flex;
   justify-content: flex-start;
-
 }
 
-h1 {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--white-color);
-}
+
 h2 {
   font-weight: 700;
   font-size: 36px;
@@ -137,12 +130,31 @@ a:focus {
 .contacts:hover {
   color: var(--blue-color);
 }
-
+.title-h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color);
+  width: 617px;
+  margin: 0 auto;
+  
+}
 .title {
   text-align: center;
-  padding: 200px 452px 200px 452px;
   background: var(--dark-color);
+  background: url("../images/banner/banner.jpg") no-repeat 50% 50% / cover;
+ 
 }
+.banner-gradient {
+ 
+ background-color: var(--banner-background);
+ padding: 200px;
+ 
+  
+}
+
 button {
   cursor: pointer;
 }
@@ -167,10 +179,8 @@ button {
   color: var(--gray-color);
 }
 
-
-.section-top{
+.section-top {
   padding-top: 94px;
-  
 }
 .section-bottom {
   padding-bottom: 94px;
@@ -181,7 +191,6 @@ button {
   justify-content: space-between;
   padding-bottom: 94px;
   gap: 30px;
-  
 }
 .group-buttons {
   display: flex;
@@ -191,7 +200,6 @@ button {
 .section-team {
   background: var(--bg-team-white-color);
   width: 1600px;
-  
 }
 
 .button-portfolio {
@@ -261,8 +269,6 @@ button {
   color: var(--light-gray-text-color);
 }
 
-
-
 .customers {
   display: flex;
   justify-content: space-between;
@@ -271,7 +277,6 @@ button {
 .customers svg {
   width: 106px;
   height: 60px;
-  
 }
 .customers li {
   color: var(--gray-color);
@@ -280,7 +285,6 @@ button {
 .customers li:focus {
   color: var(--blue-color);
   border: 1px solid var(--blue-color);
-
 }
 .customers-icon-box {
   box-sizing: border-box;
@@ -291,7 +295,8 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: color 250ms var(--cubic-bezier), border-color 250ms var(--cubic-bezier);
+  transition: color 250ms var(--cubic-bezier),
+    border-color 250ms var(--cubic-bezier);
 }
 
 .icon {
@@ -299,7 +304,6 @@ button {
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
-      
 }
 
 .icon-envelope {
@@ -324,8 +328,6 @@ svg {
   border-radius: 4px;
   text-align: center;
   padding: 25px 0px 25px 0px;
-   
-  
 }
 .our-strengths-icon svg {
   width: 70px;
@@ -336,12 +338,11 @@ svg {
 .social-icons-box {
   display: flex;
   justify-content: space-between;
-  padding: 20px 50px 0px 50px;  
+  padding: 20px 50px 0px 50px;
 }
 .position-person,
 .social-icons-person {
-color: var(--gray-color);
-
+  color: var(--gray-color);
 }
 
 .social-icons-person li:focus,
@@ -349,7 +350,6 @@ color: var(--gray-color);
   background-color: var(--blue-color);
   color: var(--white-color);
 }
-
 
 .social-icons-box svg {
   width: 20px;
@@ -360,14 +360,12 @@ color: var(--gray-color);
   text-align: center;
   width: 44px;
   height: 44px;
-  padding-top: 12px; 
-  
+  padding-top: 12px;
 }
 
 .footer-social-icons-box li:focus,
 .footer-social-icons-box li:hover {
- background-color: var(--blue-color); 
-  
+  background-color: var(--blue-color);
 }
 .footer-social-icons-box {
   display: flex;
@@ -375,9 +373,7 @@ color: var(--gray-color);
   padding-top: 30px;
   width: 300px;
   color: var(--white-color);
-   
 }
-
 
 .footer-social-icons-box span {
   text-transform: uppercase;
@@ -388,5 +384,4 @@ color: var(--gray-color);
 
 .footer-social-icons-box li {
   background-color: var(--gray-color);
-  
 }
