@@ -4,7 +4,7 @@
   --gray-color: #757575;
   --dark-color: #2f303a;
   --blue-color: #2196f3;
-  --line-main-color: #ececec;
+  --line-main-color: #e5e5e5;
   --light-gray-color: #f5f4f5;
   --logo-black-color: #000000;
   --bg-team-white-color: #f4f5fa;
@@ -24,8 +24,7 @@ header {
   font-weight: 500;
   line-height: 1.6;
   letter-spacing: 0.02em;
-  background: var(--white-color);
-  box-shadow: 0px 1px 0px 0px var(--line-main-color);
+ 
 }
 footer {
   font-size: 14px;
@@ -85,6 +84,10 @@ a:focus {
 * {
   margin: 0;
   padding: 0;
+}
+.header-box{
+  background: var(--white-color);
+  border-bottom: 1px solid var(--line-main-color);
 }
 .group-nav {
   display: flex;
@@ -291,6 +294,7 @@ button {
   display: flex;
   justify-content: space-between;
   text-align: center;
+  cursor: pointer;
 }
 .customers svg {
   width: 106px;
@@ -336,9 +340,6 @@ button {
   height: 16px;
   margin-right: 10px;
 }
-svg {
-  cursor: pointer;
-}
 
 .our-strengths-icon {
   margin-bottom: 30px;
@@ -357,16 +358,18 @@ svg {
   display: flex;
   justify-content: space-between;
   padding: 18px 32px 0px 32px;
+  cursor: pointer;
 }
 .position-person,
 .social-icons-person {
   color: var(--gray-color);
 }
 
-.social-icons-person li:focus,
-.social-icons-person li:hover {
+.social-icons-box li:focus,
+.social-icons-box li:hover {
   background-color: var(--blue-color);
   color: var(--white-color);
+  
 }
 
 .social-icons-box svg {
