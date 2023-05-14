@@ -115,9 +115,13 @@ a:focus {
   color: var(--black-text-color);
   padding: 0px 46px 0px 0px;
 }
-.nav-active {
-  color: var(--blue-color);
+.side-active {
+  color: var(--blue-color);        
+  text-decoration: underline 4px;
+  text-underline-offset: 5px;
+
 }
+
 .contacts-position {
   padding-left: 250px;
 }
