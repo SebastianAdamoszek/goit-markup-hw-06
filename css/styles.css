@@ -14,7 +14,6 @@
 }
 body {
   font-family: "roboto", sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   background: var(--white-color);
@@ -24,7 +23,6 @@ header {
   font-weight: 500;
   line-height: 1.6;
   letter-spacing: 0.02em;
- 
 }
 footer {
   font-size: 14px;
@@ -36,7 +34,6 @@ footer {
   display: flex;
   justify-content: flex-start;
 }
-
 
 h2 {
   font-weight: 700;
@@ -85,7 +82,7 @@ a:focus {
   margin: 0;
   padding: 0;
 }
-.header-box{
+.header-box {
   border-bottom: 1px solid var(--line-main-color);
 }
 .group-nav {
@@ -112,7 +109,6 @@ a:focus {
   padding: 10px 0px 10px 0px;
 }
 .nav {
-  font-style: medium;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
@@ -120,10 +116,9 @@ a:focus {
   padding: 0px 46px 0px 0px;
 }
 .side-active {
-  color: var(--blue-color);        
+  color: var(--blue-color);
   text-decoration: underline 2px;
   text-underline-offset: 5px;
-
 }
 
 .contacts-position {
@@ -147,20 +142,15 @@ a:focus {
   color: var(--white-color);
   width: 617px;
   margin: 0 auto;
-  
 }
 .title {
   text-align: center;
   background: var(--dark-color);
   background: url("../images/banner/banner.jpg") no-repeat 50% 50% / cover;
- 
 }
 .banner-gradient {
- 
- background-color: var(--banner-background);
- padding: 200px;
- 
-  
+  background-color: var(--banner-background);
+  padding: 200px;
 }
 
 button {
@@ -211,7 +201,6 @@ button {
 }
 
 .button-portfolio {
-  font-style: medium;
   font-weight: 500;
   line-height: 1.39;
   background: var(--light-gray-color);
@@ -230,7 +219,7 @@ button {
   border: var(--blue-color);
   border-radius: 4px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.06),
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .description-person {
@@ -240,7 +229,7 @@ button {
   letter-spacing: 0.03em;
 }
 .box-shadow-person {
-   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14),
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14),
     0 2px 1px rgba(0, 0, 0, 0.2);
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
@@ -254,7 +243,6 @@ button {
 }
 .description-project {
   font-weight: 700;
-  font-style: Bold;
   font-size: 18px;
   line-height: 3.1;
   text-align: Left;
@@ -270,22 +258,20 @@ button {
   line-height: 2.5;
   color: var(--gray-color);
   padding-bottom: 20px;
-  }
+}
 .group-portfolio li:hover {
-   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.06),
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-    cursor: pointer;
+  cursor: pointer;
 }
 .address {
   margin-left: 215px;
   padding-bottom: 30px;
 }
 .white-link {
-  font-style: normal;
   color: var(--white-color);
 }
 .gray-link {
-  font-style: normal;
   color: var(--light-gray-text-color);
 }
 
@@ -331,7 +317,6 @@ button {
   width: 16px;
   height: 12px;
   margin-right: 10px;
- 
 }
 
 .icon-smartphone {
@@ -368,7 +353,6 @@ button {
 .social-icons-box li:hover {
   background-color: var(--blue-color);
   color: var(--white-color);
-  
 }
 
 .social-icons-box svg {
