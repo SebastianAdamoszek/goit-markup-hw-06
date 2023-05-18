@@ -11,6 +11,7 @@
   --light-gray-text-color: rgba(255, 255, 255, 0.6);
   --cubic-bezier: cubic-bezier(0.4, 0, 0.2, 1);
   --banner-background: rgba(47, 48, 58, 0.4);
+  --grey-transparent-background: rgba(47, 48, 58, 0.8);
 }
 body {
   font-family: "roboto", sans-serif;
@@ -167,7 +168,7 @@ button {
   font-weight: 700;
   line-height: 1.8;
   letter-spacing: 0.06em;
-  padding: 10px 41px 10px 41px;
+  padding: 10px 41px;
 }
 
 .our-strengths-text {
@@ -190,6 +191,37 @@ button {
   padding-bottom: 94px;
   gap: 30px;
 }
+
+
+.our-job {   
+  position: relative;  
+     
+}
+ .our-job img {
+  float: left;
+ 
+} 
+
+.our-job-background {
+  position: absolute;
+  color: var(--white-color);
+  background-color: var(--grey-transparent-background);
+  width: 100%;
+  bottom: 0;
+             
+
+}
+.our-job-background>p {
+  text-transform: uppercase;  
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;           
+  padding: 27px;
+   
+}
+
+
+
 .group-buttons {
   display: flex;
   justify-content: center;
@@ -388,4 +420,31 @@ button {
 
 .footer-social-icons-box li {
   background-color: var(--gray-color);
+}
+
+
+.image{
+  float: left;
+  width: 50%;
+  position: relative;
+}
+
+.image img{
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.sport{
+  position: absolute;
+  background:  rgba(0, 0, 0, 0.5);
+  width: 98%;
+  padding: 1%;
+  text-align: center;
+  top:50%;
+  left: 50%;
+  font-size: 20px;
+  color: #fff;   
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
