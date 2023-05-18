@@ -421,30 +421,3 @@ button {
 .footer-social-icons-box li {
   background-color: var(--gray-color);
 }
-
-
-.image{
-  float: left;
-  width: 50%;
-  position: relative;
-}
-
-.image img{
-  height: 100%;
-  width: 100%;
-  display: block;
-}
-
-.sport{
-  position: absolute;
-  background:  rgba(0, 0, 0, 0.5);
-  width: 98%;
-  padding: 1%;
-  text-align: center;
-  top:50%;
-  left: 50%;
-  font-size: 20px;
-  color: #fff;   
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
