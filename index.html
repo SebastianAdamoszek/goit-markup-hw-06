@@ -52,7 +52,9 @@
               <h1 class="title-h1">
                 efektywne rozwiązania dla waszego biznesu
               </h1>
-              <button class="button-studio" type="button">Zamów usługę</button>
+              <button class="button-studio" type="button" data-modal-open>
+                Zamów usługę
+              </button>
             </div>
           </div>
         </section>
@@ -122,9 +124,9 @@
                     width="370"
                     height="291"
                   />
-                  <div class="our-job-background">                                     
-                  <p>Aplikacje komputerowe</p>
-                </div>
+                  <div class="our-job-background">
+                    <p>Aplikacje komputerowe</p>
+                  </div>
                 </li>
                 <li class="our-job">
                   <img
@@ -134,8 +136,8 @@
                     height="291"
                   />
                   <div class="our-job-background">
-                  <p>Aplikacje mobilne</p>
-                </div>
+                    <p>Aplikacje mobilne</p>
+                  </div>
                 </li>
                 <li class="our-job">
                   <img
@@ -145,8 +147,8 @@
                     height="291"
                   />
                   <div class="our-job-background">
-                  <p>Rozwiązania graficzne</p>
-                  </div>             
+                    <p>Rozwiązania graficzne</p>
+                  </div>
                 </li>
               </ul>
             </div>
@@ -400,6 +402,16 @@
           </div>
         </div>
       </footer>
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+          <button type="button" class="close-btn" data-modal-close>
+            <svg>
+              <use href="./images/icons.svg#icon-close-black-18dp-2-1" />
+            </svg>
+          </button>
+        </div>
+      </div>
     </div>
-   </body>
+    <script src="./js/modal.js"></script>
+  </body>
 </html>
