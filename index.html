@@ -23,15 +23,23 @@
             ><span>Web</span><span class="logo-black">Studio</span></a
           >
         </p>
-       <nav>
+        <nav>
           <ul class="group-nav">
-            <li><a class="nav" href="index.html"><span class="side-active nav-active">Agencja</span></a></li>
             <li>
-              <a class=" nav" href="portfolio.html"
+              <a class="nav" href="index.html"
+                ><span class="side-active nav-active">Agencja</span></a
+              >
+            </li>
+            <li>
+              <a class="nav" href="portfolio.html"
                 ><span class="nav-active">Portfolio</span></a
               >
             </li>
-            <li><a class="nav " href="#"><span class="nav-active">Kontakt</span></a></li>
+            <li>
+              <a class="nav" href="#"
+                ><span class="nav-active">Kontakt</span></a
+              >
+            </li>
           </ul>
         </nav>
         <div class="contacts-position">
@@ -404,6 +412,25 @@
               </ul>
             </div>
           </div>
+          <section class="footer-title-newsletter">
+            <span>Zapisz się do newslettera</span>
+            <form name="signup_form" autocomplete="on" novalidate>
+              <label>
+                <input
+                  type="email"
+                  name="E-mail"
+                  placeholder="E-mail"
+                  class="newsletter"
+                />
+              </label>
+              <button type="submit" class="button-newsletter">
+                <span>Zapisz się</span>
+                <svg class="icon icon-send">
+                  <use href="./images/icons.svg#icon-icon_send"></use>
+                </svg>
+              </button>
+            </form>
+          </section>
         </div>
       </footer>
       <div class="backdrop is-hidden" data-modal>
@@ -413,6 +440,7 @@
               <use href="./images/icons.svg#icon-close-black-18dp-2-1" />
             </svg>
           </button>
+          
         </div>
       </div>
     </div>
