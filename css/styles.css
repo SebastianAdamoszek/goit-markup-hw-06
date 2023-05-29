@@ -11,7 +11,7 @@
   --light-gray-text-color: rgba(255, 255, 255, 0.6);
   --banner-background: rgba(47, 48, 58, 0.4);
   --grey-transparent-background: rgba(47, 48, 58, 0.8);
-  --transition: color 250ms var(--cubic-bezier),
+  --transition: transform 250ms var(--cubic-bezier),
     background-color 250ms var(--cubic-bezier),
     border-color 250ms var(--cubic-bezier);
   --cubic-bezier: cubic-bezier(0.4, 0, 0.2, 1);
@@ -154,7 +154,7 @@ a:focus {
 }
 
 .contacts-position {
-  padding-left: 250px;
+  margin-left: 250px;
   display: flex;
   align-items: center;
 }
@@ -348,13 +348,15 @@ button {
   margin: 0 auto;
   padding: 50px 25px 50px 20px;
   transform: translateY(100%);
-  transition: transform 250ms var(--cubic-bezier);
+  transition: var(--transition);
   z-index: 0;
+ visibility: hidden;
 }
 
 .group-portfolio li:hover .description-project-hidden,
 .group-portfolio li:focus .description-project-hidden {
   transform: translateY(0%);
+  visibility: visible;
 }
 
 .address {
@@ -657,7 +659,7 @@ textarea::placeholder {
 .modal-checkbox {
   display: flex;
   align-items: center;
-  cursor: pointer;
+  /* cursor: pointer; */
   margin-top: 20px;
   margin-bottom: 30px;
 }
