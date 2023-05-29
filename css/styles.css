@@ -12,7 +12,8 @@
   --banner-background: rgba(47, 48, 58, 0.4);
   --grey-transparent-background: rgba(47, 48, 58, 0.8);
   --transition: color 250ms var(--cubic-bezier),
-    background-color 250ms var(--cubic-bezier);
+    background-color 250ms var(--cubic-bezier),
+    border-color 250ms var(--cubic-bezier);
   --cubic-bezier: cubic-bezier(0.4, 0, 0.2, 1);
   --blue-transparent-background: #2196f3e6;
 }
@@ -736,9 +737,7 @@ textarea::placeholder {
   fill: var(--blue-color);
   border-color: var(--blue-color);
   outline: none;
-  transition-duration: 250ms;
-  transition-timing-function: var(--cubic-bezier);
-  transition-property: outline-color, fill;
+  transition: var(--transition);
 }
 
 .modal-form-button {
