@@ -14,6 +14,7 @@
   --transition: transform 250ms var(--cubic-bezier),
     background-color 250ms var(--cubic-bezier),
     border-color 250ms var(--cubic-bezier);
+    
   --cubic-bezier: cubic-bezier(0.4, 0, 0.2, 1);
   --blue-transparent-background: #2196f3e6;
 }
@@ -350,13 +351,13 @@ button {
   transform: translateY(100%);
   transition: var(--transition);
   z-index: 0;
- visibility: hidden;
+ /* visibility: hidden; */
 }
 
 .group-portfolio li:hover .description-project-hidden,
 .group-portfolio li:focus .description-project-hidden {
   transform: translateY(0%);
-  visibility: visible;
+  /* visibility: visible; */
 }
 
 .address {
