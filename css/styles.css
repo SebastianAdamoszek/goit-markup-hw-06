@@ -154,6 +154,8 @@ a:focus {
 
 .contacts-position {
   padding-left: 250px;
+  display: flex;
+  align-items: center;
 }
 .contact-space {
   padding-right: 50px;
@@ -413,9 +415,7 @@ button {
 .icon-smartphone {
   width: 10px;
   height: 16px;
-  margin-right: 10px;
-  margin-bottom: -2px;
-  
+  margin-right: 10px; 
 }
 
 .our-strengths-icon {
@@ -654,8 +654,8 @@ textarea::placeholder {
 }
 
 .modal-checkbox {
-  display: block;
-  position: relative;
+  display: flex;
+  align-items: center;
   cursor: pointer;
   margin-top: 20px;
   margin-bottom: 30px;
@@ -674,7 +674,6 @@ textarea::placeholder {
   background-color: var(--white-color);
   border: 2px solid black;
   position: absolute;
-  top: 7px;
   left: 63px;
   cursor: pointer;
   border-radius: 2px;
