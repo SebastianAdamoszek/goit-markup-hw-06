@@ -351,6 +351,7 @@ button {
   transform: translateY(100%);
   transition: var(--transition);
   z-index: 0; 
+  visibility: hidden;
 }
 
 .group-portfolio li:hover .description-project-hidden,
